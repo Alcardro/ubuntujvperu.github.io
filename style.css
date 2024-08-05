@@ -112,7 +112,7 @@ a{
     /* Estilos específicos para pantallas menores o iguales a 768px */
     /* Por ejemplo, ajustes de tamaño de fuente, márgenes, etc. */
     .img-fluid{
-        max-width: 80%;
+        max-width: 85%;
         height: auto;
     }
     .full-container{
