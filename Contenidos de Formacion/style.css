@@ -105,6 +105,7 @@ a{
 
 
 
+
 /* hacer pagina web responsive */
 
 /* Media queries para pantallas pequeñas (móviles) */
@@ -142,6 +143,11 @@ a{
     
   }
 
+  .custom-div{
+    width: 90%;
+
+  }
+
   .homepage{
     display: flex;
     flex-direction: column;
@@ -149,7 +155,7 @@ a{
     justify-content: center;
     width: 100%;
     margin-top: 50px;
-}
+  }
 
 
 }
