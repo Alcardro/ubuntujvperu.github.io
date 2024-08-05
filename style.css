@@ -134,16 +134,7 @@ a{
         line-height: 1.5;
         margin-bottom: 50px;
     }
-}
-
-/* Media queries para pantallas medianas (tabletas) */
-@media (min-width: 768px) and (max-width: 992px) {
-    /* Estilos específicos para pantallas entre 768px y 992px */
-    /* Por ejemplo, ajustes de columnas, tamaño de imágenes, etc. */
-}
-
-/* Media queries para pantallas grandes (escritorios) */
-@media (min-width: 992px) {
-    /* Estilos específicos para pantallas mayores o iguales a 992px */
-    /* Por ejemplo, ajustes de la disposición de los elementos, anchos de columna, etc. */
+    h3{
+        width: 110%;
+    }
 }
