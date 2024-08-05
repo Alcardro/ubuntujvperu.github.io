@@ -110,7 +110,8 @@ a{
   }
   
 
-  /* hacer pagina web responsive */
+ 
+/* hacer pagina web responsive */
 
 /* Media queries para pantallas pequeñas (móviles) */
 @media (max-width: 768px) and (max-width: 992px) {
@@ -123,6 +124,7 @@ a{
     color: #4b5156;
     text-align: center;
     line-height: 1.2;
+    font-weight: bold;;
   }
 
   h3{
@@ -147,20 +149,25 @@ a{
     
   }
 
-  .custom-div{
-    width: 90%;
-
-  }
-
   .homepage{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
-    margin-top: 50px;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
+  .custom-div{
+    width: 90%;
+    margin-top: -20px;
+    margin-bottom: 20px;;
+  }
+
+  .btn{
+    width:300px;
+  }
 
 }
-
