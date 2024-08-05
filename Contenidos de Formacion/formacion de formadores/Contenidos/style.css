@@ -161,9 +161,30 @@ li{
     
   }
 
-  h2{
+  .container .row{
+   
+    margin-top:-50px;
+    margin-bottom: 20px;
+  }
+
+  .container .row .col h5{
+    display: none;
+  }
+
+  .list-group{
+   
+    margin-bottom: 10px;
+  }
+
+  .left-side-list{
+    margin-top: 10px;
+  }
+  .left-side-list-two{
+    margin-top: 10px;
+  }
+
+  h2,h3,h4{
     font-size: 1.2em;
-    
     margin-bottom: 15px;
     width: 100%;
     text-align: center;
@@ -172,10 +193,10 @@ li{
   p{
       font-size: 0.9em;
       line-height: 1.5;
-      margin-bottom: 20px;
       width: 80%;
       margin-left: auto;
       margin-right: auto;
+ 
   }
   
  
@@ -186,16 +207,15 @@ li{
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    margin-top: -20px;
-    
+    margin-top: -20px; 
     margin-left: auto;
     margin-right: auto;
-}
+  }
 
-.custom-div{
-  width: 90%;
-  margin-top: -20px;
-}
+  .custom-div{
+    width: 90%;
+    margin-top: -20px;
+  }
 
 
 }
